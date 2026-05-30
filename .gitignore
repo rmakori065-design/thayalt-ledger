@@ -1,0 +1,37 @@
+# Compiled binaries
+core/thayalt_core
+observers/thayalt_sentinel
+observers/thayalt_auditor
+*.exe
+*.out
+
+# Ledger and checkpoint files
+thayalt_core.log
+thayalt_checkpoints.log
+core.log
+sentinel_cert.bin
+
+# Object files and temporary build files
+*.o
+*.obj
+*.d
+*.tmp
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Arduino / embedded build artifacts (if any)
+*.ino.cpp
+*.ino.elf
+*.ino.hex
+*.ino.with_bootloader.hex
+build/
